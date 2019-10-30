@@ -15,6 +15,7 @@ namespace S
 
         public static void EndApplication()
         {
+            Console.WriteLine("Press Enter to close...");
             Console.ReadLine();
         }
 
